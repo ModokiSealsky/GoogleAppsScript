@@ -52,3 +52,9 @@ const ignoreRows = creator.createIgnoreValues(rrValues, ignoreCase);
 outputSheet.getRange(OUTPUT_START_ROW, OUTPUT_START_COL, rrValues.length, colLength).setValues(rrValues);
 outputSheet.getRange(OUTPUT_START_ROW, OUTPUT_START_COL + colLength, rrValues.length, 1).setValues(ignoreRows);
 ~~~
+
+## ライセンス
+
+Copyright (c) 2024 Modoki Sealsky
+Released under the MIT license
+https://opensource.org/licenses/mit-license.php
